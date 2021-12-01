@@ -12,7 +12,7 @@ background-repeat:no-repeat;background-position:center;">
 <div style="width:100%;text-align:center">
 <form name="weather_request" action=Detail method="get">
     请输入待查询城市名：<input type="text" name="city_name" placeholder="请输入正确的城市名"><br>
-    是否需要每3小时的天气预报？：<input type="radio" name="3hour" value="yes"><br>
+    是否需要每3小时的天气预报？：不需要<input type="radio" name="3hour" value="no" checked="checked">  需要<input type="radio" name="3hour" value="yes"><br>
     请选择待查询的天数：<input type="checkbox" name="days" value="day1" checked="checked">今天
     <input type="checkbox" name="days" value="day2">明天 <input type="checkbox" name="days" value="day3">后天
     <input type="checkbox" name="days" value="day4">第四天 <input type="checkbox" name="days" value="day5">第五天
